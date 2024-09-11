@@ -1,0 +1,144 @@
+* {
+    margin: 0; /* ページ全体の余白を削除 */
+    padding: 0; /* ページ全体のパディングを削除 */
+}
+
+.pc {
+    display: block;
+}
+
+.sp {
+    display: none;
+}
+
+/* イベントトップ */
+.top-contents {
+    background-image: url(../img/Group183.png);
+    background-position: center;
+    background-size: cover;
+    height: 841.11px;
+    margin-top: -1px;
+}
+
+.section {
+    padding: 14px 40px;
+}
+
+.kv {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 850px;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.kv-title { 
+    font-size: 28px;
+    line-height: 80px;
+}
+
+.kv-logo {
+    margin: 0 auto;
+    padding-top: 21px;
+}
+
+.kv_sub_title {
+    margin: 0 auto;
+    padding-top: 16px;
+}
+
+.kv-date  {
+    margin: 0 auto;
+    padding-top: 18px;
+    padding-right: 4px;
+}
+
+.kv-place {
+    font-size: 29.19px;
+    margin: 0 auto;
+    line-height: 11px;
+}
+
+.kv-line {
+    display: flex;
+    width: 420px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 59px;
+    border-radius: 999px;
+    border: 2px solid #FFFFFF;
+    background: #06C755;
+}
+
+/* 事前申し込みはこちら（無料） */
+.kv-line-text {
+    display: flex;
+    align-items: center;
+    text-indent: 30px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.kv-line-free {
+    text-indent: -10px;
+}
+
+.kv-line-icon {
+    height: 57px;
+    width: 57px;
+    margin-left: -12px;
+}
+
+
+@media (max-width: 625px) {
+    .pc {
+        display: none;
+    }
+    
+    .sp {
+        display: block;
+    }
+    
+    .top-contents {
+        background-image: url(../img/Group184.png);
+        height: 466px;
+        margin-top: -4px;
+    }
+
+    .section {
+        padding: 15px 12px;
+    }
+
+    .kv-title {
+        font-size: 16px;
+        line-height: 72px;
+    }
+
+    .kv-logo {
+        padding-top: 0px;
+    }
+
+    .kv_sub_title {
+        padding-top: 14.5px;
+    }
+
+    .kv-date {
+        padding-top: 21.5px;
+    }
+
+    .kv-place {
+        font-size: 15.88px;
+        line-height: 8px;
+    }
+}
+
+
+
+
+
+
