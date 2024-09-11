@@ -20,7 +20,7 @@
     margin-top: -1px;
 }
 
-.section {
+.top-logo {
     padding: 14px 40px;
 }
 
@@ -39,7 +39,8 @@
 
 .kv-title { 
     font-size: 28px;
-    line-height: 80px;
+    line-height: 1;
+    padding: 26px 0px;
 }
 
 .kv-logo {
@@ -56,12 +57,13 @@
     margin: 0 auto;
     padding-top: 18px;
     padding-right: 4px;
+    height: 62px;
 }
 
 .kv-place {
     font-size: 29.19px;
     margin: 0 auto;
-    line-height: 11px;
+    line-height: 1;
 }
 
 .kv-line {
@@ -69,7 +71,7 @@
     width: 420px;
     height: 60px;
     margin: 0 auto;
-    margin-top: 59px;
+    margin-top: 50px;
     border-radius: 999px;
     border: 2px solid #FFFFFF;
     background: #06C755;
@@ -95,7 +97,91 @@
 }
 
 
-@media (max-width: 625px) {
+/* フリーランスサミットとは */
+.freelance-summit-bg {
+    margin-top: -18px;
+    background-image: url(../img/Group185.svg);
+    background-size: cover;
+    background-position: center;
+    height: 1501.26px;
+}
+
+.freelance-summit-section {
+    padding-top: 53px;
+}
+
+.section {
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 10px;
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.freelance-summit-contents {
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 58px;
+    color: #81D7FC;
+    padding-right: 13px;
+}
+
+.sub-title {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 14px 0px;
+}
+
+.sub-title::before,
+.sub-title::after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 1px;
+    background-color: #444545;
+}
+
+.freelance-summit-sub::before,
+.freelance-summit-sub::after {
+    margin: 0px 23.5px 0px 11.5px;
+}
+
+.freelance-summit-main-text {
+    margin: 0 auto;
+    font-size: 22px;
+    text-align: center;
+    color: #444545;
+    padding:  45px 0px;
+    line-height: 2;
+}
+
+.freelance-summit-sub-text {
+    font-weight: 500;
+    font-size: 18px;
+    color: #444545;
+    text-align: left;
+    line-height: 44px;
+}
+
+
+@media (min-width: 1490px) {
+    .freelance-summit-bg {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 630px) {
     .pc {
         display: none;
     }
@@ -103,24 +189,31 @@
     .sp {
         display: block;
     }
-    
+
     .top-contents {
         background-image: url(../img/Group184.png);
         height: 466px;
         margin-top: -4px;
     }
 
-    .section {
-        padding: 15px 12px;
+    .top-logo {
+        padding: 17px 11px;
+    }
+
+    .freelance-summit-section {
+        padding-top: 52px;
     }
 
     .kv-title {
         font-size: 16px;
-        line-height: 72px;
+        line-height: 1;
+        padding: 27px 0px;
+        padding-right: 4px;
     }
 
     .kv-logo {
         padding-top: 0px;
+        padding-right: 4px;
     }
 
     .kv_sub_title {
@@ -128,17 +221,55 @@
     }
 
     .kv-date {
-        padding-top: 21.5px;
+        padding-top: 21px;
+        height: 34px;
+        padding-right: 7px;
     }
 
     .kv-place {
         font-size: 15.88px;
-        line-height: 8px;
+        line-height: 1;
+        padding-right: 5px;
+    }
+
+    .freelance-summit-contents {
+        font-size: 26px;
+    }
+    .section {
+        padding: 0px 45px;
+    }
+    .freelance-summit-sub {
+        font-size: 14px;
+        line-height: 14px;
+        padding: 11px 0px;
+    }
+
+    .freelance-summit-sub::before,
+    .freelance-summit-sub::after {
+        width: 20px;
+        margin: 0px 15.5px 0px 11.5px;
+    }
+
+    .freelance-summit-sub-text {
+        font-size: 16px;
+        line-height: 37px;
+        padding: 14px 0px;
+    }
+
+}
+
+@media (max-width: 390px) {
+    .freelance-summit-bg {
+        margin-top: -26px;
+        background-image: url(../img/Group186.svg);
+        height: 416.93px;
     }
 }
 
-
-
-
-
-
+@media (max-width: 365px) {
+    .sub-title {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    
+}
