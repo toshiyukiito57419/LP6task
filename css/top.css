@@ -4,7 +4,7 @@
 }
 
 .pc {
-    display: block;
+    display: flex;
 }
 
 .sp {
@@ -140,7 +140,6 @@
     justify-content: center;
     font-size: 18px;
     line-height: 18px;
-    padding: 14px 0px;
 }
 
 .sub-title::before,
@@ -150,6 +149,10 @@
     width: 30px;
     height: 1px;
     background-color: #444545;
+}
+
+.freelance-summit-sub {
+    padding: 14px 0px;
 }
 
 .freelance-summit-sub::before,
@@ -175,9 +178,146 @@
 }
 
 
+.event-summit-section {
+    padding-top: 162px;
+}
+
+.event-summit-sub {
+    margin-right: 12px;
+    padding: 14px 0px;
+}
+
+.event-summit-sub::before,
+.event-summit-sub::after {
+    margin: 0px 32px;
+}
+
+.event-summary-contents {
+    padding-top: 46px;
+}
+
+.event-summary-detail {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+
+
+.event-summary-detail-info{
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 4px;
+}
+
+.event-summary-text-info {
+    flex-direction: column;
+    font-family: 'Noto Sans JP';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.event-summary-boarder {
+    display: flex;
+    align-items: center;
+    border-radius: 9999px;
+    width: 166px;
+    height: 51px;
+    border: 2px solid #FDD35C;
+    margin-right: 20px;
+}
+
+.event-summary-title {
+    margin: 0 auto;
+    font-family: 'Noto Sans JP';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    color: #FDD35C;
+}
+
+.event-summary-text {
+    font-family: 'Noto Sans JP';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.event-boarder {
+    width: 100%;
+    height: 0px;
+    margin: 34px -16px;;
+    border: 1px dashed #C4C4C4;
+}
+
+.hole {
+    text-indent: 11px;
+}
+
+
+
+.event-summary-detail-access {
+    display: flex;
+}
+
+.event-summary-station {
+    display: flex;
+    flex-direction: column;
+}
+
+.event-summary-text-access {
+    display: flex;
+    font-family: 'Noto Sans JP';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 41px;
+}
+
+.event-summary-station-detail {
+    display: flex;
+    font-family: 'Noto Sans JP';
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 20px;
+    padding-bottom: 7px;
+}
+
+.event-summary-station-detail::before {
+    display: flex;
+    margin: 6px 2px 0px 3px;
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #FDD35C;
+}
+
+.event-summary-map {
+    margin-left: auto;
+}
+
+
 @media (min-width: 1490px) {
     .freelance-summit-bg {
         margin-top: 0px;
+    }
+}
+
+@media (max-width: 1010px) {
+    .event-boarder {
+        margin: 34px 0px;
+    }
+
+    .event-summary-map.pc {
+        display: none;
+    }
+    
+    .event-summary-map.sp {
+        padding: 17px 0px;
+        display: flex;
     }
 }
 
@@ -185,9 +325,9 @@
     .pc {
         display: none;
     }
-    
+
     .sp {
-        display: block;
+        display: flex;
     }
 
     .top-contents {
@@ -197,10 +337,11 @@
     }
 
     .top-logo {
-        padding: 17px 11px;
+        padding: 16px 12px;
     }
 
     .freelance-summit-section {
+        padding: 0px 37px;
         padding-top: 52px;
     }
 
@@ -208,39 +349,38 @@
         font-size: 16px;
         line-height: 1;
         padding: 27px 0px;
-        padding-right: 4px;
     }
 
     .kv-logo {
         padding-top: 0px;
-        padding-right: 4px;
     }
 
     .kv_sub_title {
-        padding-top: 14.5px;
+        padding-top: 15px;
     }
 
     .kv-date {
         padding-top: 21px;
-        height: 34px;
-        padding-right: 7px;
+        height: 35px;
     }
 
     .kv-place {
         font-size: 15.88px;
         line-height: 1;
-        padding-right: 5px;
     }
+
+    /* フリーランスサミットとは */
 
     .freelance-summit-contents {
         font-size: 26px;
     }
-    .section {
-        padding: 0px 45px;
-    }
-    .freelance-summit-sub {
+
+    .sub-title {
         font-size: 14px;
         line-height: 14px;
+    }
+
+    .freelance-summit-sub {
         padding: 11px 0px;
     }
 
@@ -256,6 +396,102 @@
         padding: 14px 0px;
     }
 
+    /* イベント開催概要 */
+
+    .event-summary-contents {
+        padding-top: 16px;
+    }
+
+    .event-summit-section {
+        padding: 18px 10px 0px 12px;
+    }
+
+    .event-summit-sub::before,
+    .event-summit-sub::after {
+        width: 20px;
+        margin: 0px 19.5px 0px 16.5px;
+    }
+
+    .event-summit-sub {
+        padding: 10px 0px;
+        margin-right: 0px;
+    }
+
+    .event-summary-detail-tokyo > .event-summary-detail {
+        align-items: center;
+    }
+
+    .event-summary-detail{
+        align-items: normal;
+    }
+
+    .event-boarder {
+        margin: 5px 0px;
+    }
+
+    .event-summary-detail-info{
+        align-items: normal;
+    }
+    
+    .event-summary-text-info {
+        font-size: 14px;
+        line-height: 25px;
+        text-align: left;
+        padding: 3px 0px;
+    }
+
+    .access > .event-summary-boarder {
+        margin-right: 5px;
+    }
+
+    .event-summary-boarder {
+        max-width: 105px;
+        height: 27px;
+        margin: 5px 0px;
+        margin-right: 18px;
+        border: 1.24px solid #FDD35C;
+    }
+    
+    .event-summary-title {
+        font-size: 15px;
+    }
+    
+    .event-summary-text {
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    .break-on-small {
+        display: block;
+    }
+
+    .event-summary-detail-access {
+        align-items: baseline;
+    }
+
+    .event-summary-text-access {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 28px;
+        text-indent: 7px;
+    }
+    
+    .event-summary-station-detail {
+        font-weight: 400;
+        padding-bottom: 7px;
+    }
+    
+    .event-summary-station-detail::before {
+        margin: 7px 3px 0px 1.5px;
+        width: 8px;
+        height: 8px;
+        min-width: 8px;
+    }
+
+    .event-summary-map > iframe{
+        height: 200px;
+        width: 100%;
+    }
 }
 
 @media (max-width: 390px) {
