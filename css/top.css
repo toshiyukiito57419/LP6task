@@ -447,11 +447,11 @@
 }
 
 .pickup-sub {
-    padding: 19px 12px 19px 0px;
+    padding: 23px 12px 19px 0px;
 }
 
 .pickup-contents {
-    padding-top: 18px;
+    padding-top: 15px;
 }
 
 .pickup-sub::before,
