@@ -98,6 +98,12 @@
 
 
 /* フリーランスサミットとは */
+
+.freelance-summit {
+    margin-top: -1500.93px;
+    height: auto;
+}
+
 .freelance-summit-bg {
     margin-top: -18px;
     background-image: url(../img/Group185.svg);
@@ -161,6 +167,7 @@
 }
 
 .freelance-summit-main-text {
+    display: block;
     margin: 0 auto;
     font-size: 22px;
     text-align: center;
@@ -300,6 +307,122 @@
 }
 
 
+/* イベント内容 */
+
+.content-bg {
+    margin-top: 86px;
+    height: auto;
+    background: #FFF6DE;
+}
+
+.contents-section {
+    padding-top: 80px;
+}
+
+.contents {
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    color: #FDD35C;
+    padding-right: 11px;
+}
+
+.contents-sub {
+    margin-right: 12px;
+    padding: 17px 0px;
+}
+
+.contents-sub::before,
+.contents-sub::after {
+    margin: 11px 21px;
+}
+
+.contents-detail {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.contents-area-detail {
+    padding: 0px 45px;
+    background: #FFFFFF;
+}
+
+.contents-area {
+    width: 100%;
+    max-width: 429px;
+    height: 370px;
+    border-radius: 10px 10px 10px 10px;
+    border: 3px solid #FDD35C;
+    background: #FFFFFF;
+}
+
+.contents-area-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 50px;
+    padding-top: 3px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FDD35C;
+}
+
+.contents-area-sub-titel {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    padding-top: 16px;
+    margin-right: 13px;
+}
+
+.curve {
+    margin: 0 auto;
+}
+
+.sixty {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.contents-area-sub-detail {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1;
+    color: #FDD35C;
+}
+
+.contents-area-company {
+    margin-top: -8px;
+}
+
+.contents-area-seminar {
+    padding-top: 4px;
+}
+
+.stock {
+    width: 100%;
+    max-width: 340px;
+    height: 180px;
+    margin: 0 auto;
+    padding: 13px 0px;
+}
+
+.img31 {
+    width: 100%;
+    max-width: 340px;
+    height: 180px;
+    margin: 0 auto;
+    padding: 19px 4px;
+}
+
+
 @media (min-width: 1490px) {
     .freelance-summit-bg {
         margin-top: 0px;
@@ -307,6 +430,16 @@
 }
 
 @media (max-width: 1010px) {
+
+    .freelance-summit {
+        margin-top: 0px;
+        height: auto;
+    }
+
+    .freelance-summit-bg {
+        height: auto;
+    }
+
     .event-boarder {
         margin: 34px 0px;
     }
@@ -319,6 +452,22 @@
         padding: 17px 0px;
         display: flex;
     }
+
+    .content-bg {
+        margin-top: 0px;
+        height: auto;
+    }
+
+    .contents-detail {
+        display: block;
+        padding-top: 14px;
+        padding-bottom: 10px;
+    }
+    .contents-area {
+        margin: 0 auto;
+        margin-bottom: 26px;
+    }
+
 }
 
 @media (max-width: 630px) {
@@ -403,7 +552,8 @@
     }
 
     .event-summit-section {
-        padding: 18px 10px 0px 12px;
+        /* padding: 18px 10px 0px 12px; */
+        padding: 18px 10px 23px 12px;
     }
 
     .event-summit-sub::before,
@@ -430,6 +580,7 @@
     }
 
     .event-summary-detail-info{
+        padding-bottom: 0px;
         align-items: normal;
     }
     
@@ -492,9 +643,107 @@
         height: 200px;
         width: 100%;
     }
+
+
+    .contents-section {
+        padding: 30px 22px 0px 18px;
+    }
+
+    .contents {
+        padding-right: 0px;
+        font-size: 26px;
+        line-height: 26px;
+        padding-top: 10px;
+    }
+
+    .contents-sub {
+        margin-right: 0px;
+        padding: 7px 0px;
+    }
+
+    .contents-sub::before, .contents-sub::after {
+        margin: 11px 32px;
+        width: 20px;
+    }
+
+    .contents-detail {
+        display: block;
+        padding-top: 14px;
+        padding-bottom: 10px;
+    }
+
+    .contents-area {
+        margin: 0 auto;
+        height: auto;
+        margin-bottom: 29px;
+    }
+
+    .contents-area-title {
+        font-size: 18.54px;
+        font-weight: 700;
+        line-height: 31.67px;
+        padding: 4.5px 0px;
+    }
+
+    .contents-area-detail {
+        padding: 0px 35px;
+        margin-bottom: 3px;
+    }
+
+    .contents-area-sub-titel {
+        font-size: 10.81px;
+        line-height: 1;
+        padding-top: 11.5px;
+    }
+
+    .sixty {
+        font-size: 37.08px;
+        font-weight: 600;
+        line-height: 1;
+    }
+
+    .contents-area-sub-detail {
+        font-size: 21.63px;
+        font-weight: 700;
+        line-height: 1;
+    }
+    
+
+    .stock {
+        width: 100%;
+        max-width: 262.62px;
+        height: 139.03px;
+        padding: 11px 0px
+    }
+
+    .img31 {
+        width: 100%;
+        max-width: 262.62px;
+        height: 139.03px;
+        padding: 14px 3px;
+    }
+
+
+
+    
+
+    
+
+    
+
+
+
+
+
 }
 
 @media (max-width: 390px) {
+    .freelance-summit {
+        /* margin-top: -364.93px; */
+        margin-top: -417.93px;
+        height: auto;
+    }
+
     .freelance-summit-bg {
         margin-top: -26px;
         background-image: url(../img/Group186.svg);
@@ -502,10 +751,18 @@
     }
 }
 
-@media (max-width: 365px) {
+@media (max-width: 375px) {
     .sub-title {
         font-size: 12px;
         line-height: 12px;
+    }
+
+    .contents-area-title {
+        font-size: 17.54px;
+    }
+
+    .contents-area-sub-detail {
+        font-size: 19.63px;
     }
     
 }
