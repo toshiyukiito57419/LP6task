@@ -311,6 +311,7 @@
 
 .content-bg {
     margin-top: 86px;
+    padding-bottom: 74px;
     height: auto;
     background: #FFF6DE;
 }
@@ -422,6 +423,133 @@
     padding: 19px 4px;
 }
 
+/* pickup */
+.pickup-bg {
+    background: linear-gradient(to right, 
+    #FDD35C 0px, #FDD35C 50px, 
+    white 50px, white calc(100% - 50px), 
+    #FDD35C calc(100% - 50px), #FDD35C 100%);
+}
+
+.pickup-section {
+    max-width: 982px;
+    padding: 50px 50px 65px 50px;
+}
+
+.pickup-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 60px;    
+    color: #FDD35C;
+    padding-right: 8px;
+}
+
+.pickup-sub {
+    padding: 19px 12px 19px 0px;
+}
+
+.pickup-contents {
+    padding-top: 18px;
+}
+
+.pickup-sub::before,
+.pickup-sub::after {
+    margin: 11px 30px;
+}
+
+.pickup-detail {
+    display: flex;
+    text-align: left;
+}
+
+.pickup-company {
+    display: flex;
+    width: 300px;
+    margin-right: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image15 {
+    width: 110.25px;
+    height: 30px;
+}
+
+.pickup-info {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    width: calc(100% - 300px);
+}
+
+.pickup-pe-bank {
+    padding-top: 26px;
+}
+
+.pickup-pe-bank-name {
+    padding-top: 10px;
+}
+
+
+.pickup-boc {
+    padding-top: 22px;
+}
+
+.pickup-creava {
+    padding-top: 23px;
+}
+
+.pickup-creava-name {
+    margin-bottom: 12px;
+}
+
+
+.pickup-quartrt {
+    padding-top: 28px;
+}
+
+.pickup-quartrt-name {
+    padding-top: 10px;
+    padding-left: 2px;
+}
+
+
+.oplan-link {
+    display: block;
+    padding-left: 5px;
+}
+
+.frame {
+    width: 223px;
+    height: 19px;
+}
+
+.image14 {
+    width: 266.79px;
+    height: 30px;
+}
+
+.image17 {
+    width: 124px;
+    height: 57px;
+}
+
+.sunsak {
+    display: block;
+}
+
+.image16 {
+    width: 95px;
+    height: 21px;
+}
+
+.image18 {
+    width: 103px;
+    height: 42px;
+}
 
 @media (min-width: 1490px) {
     .freelance-summit-bg {
@@ -552,7 +680,6 @@
     }
 
     .event-summit-section {
-        /* padding: 18px 10px 0px 12px; */
         padding: 18px 10px 23px 12px;
     }
 
@@ -723,13 +850,79 @@
         padding: 14px 3px;
     }
 
+    .pickup-bg {
+        background: linear-gradient(to right, 
+        #FDD35C 0px, #FDD35C 10px, 
+        white 10px, white calc(100% - 10px), 
+        #FDD35C calc(100% - 10px), #FDD35C 100%);
+    }
 
+    .pickup-section {
+        padding: 30px 20px 65px 20px;
+    }
+
+    .pickup-title {
+        font-size: 26px;
+        line-height: 26px;
+        padding-top: 10px;
+    }
+
+    .pickup-detail {
+        flex-direction: column;
+    }
+    
+    .pickup-company {
+        width: 100%;
+        margin-right: 0px;
+        padding: 10px 0px;
+    }
+
+    .pickup-info {
+        padding: 10px 0px 30px 0px;
+        width: 100%;
+    }
 
     
-
+    .pickup-pe-bank {
+        padding-top: 0px;
+    }
     
-
+    .pickup-pe-bank-name {
+        padding-top: 0px;
+    }
     
+    
+    .pickup-boc {
+        padding-top: 0px;
+    }
+    
+    .pickup-creava {
+        padding-top: 0px;
+    }
+    
+    .pickup-creava-name {
+        margin-bottom: 0px;
+    }
+    
+    
+    .pickup-quartrt {
+        padding-top: 0px;
+    }
+    
+    .pickup-quartrt-name {
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+    
+    .oplan-link {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sucsak-link {
+        display: flex;
+        justify-content: center;
+    }
 
 
 
@@ -739,7 +932,6 @@
 
 @media (max-width: 390px) {
     .freelance-summit {
-        /* margin-top: -364.93px; */
         margin-top: -417.93px;
         height: auto;
     }
