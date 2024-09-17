@@ -551,6 +551,56 @@
     height: 42px;
 }
 
+/* 出店企業一覧 */
+.about-exhibitors-bg {
+    background-image: url(../img/Group192.svg);
+    background-position: center;
+    background-size: cover;
+    height: 517.01px;
+    margin-top: -26px;
+    margin-right: 30px;
+}
+
+.about-exhibitors-section {
+    padding-top: 50px;
+}
+
+.about-exhibitors-title {
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 60px;
+    padding-left: 30px;
+    color: #81D7FC;
+}
+
+.about-exhibitors-sub {
+    padding: 15px 0px;
+    margin-left: 20px;
+}
+
+.about-exhibitors-sub::before,
+.about-exhibitors-sub::after {
+    margin: 11px 50px;
+}
+
+.about-exhibitors-contents {
+    display: flex;
+    text-align: left;
+    padding: 75px 40px 0px 15px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.about-exhibitors-companys1 {
+    margin-right: auto;
+    text-align: left;
+}
+
+
 @media (min-width: 1490px) {
     .freelance-summit-bg {
         margin-top: 0px;
@@ -915,8 +965,7 @@
     }
     
     .oplan-link {
-        display: flex;
-        justify-content: center;
+        display: none;
     }
 
     .sucsak-link {
@@ -925,8 +974,33 @@
     }
 
 
+    .about-exhibitors-section {
+        padding-top: 30px;
+    }
 
+    .about-exhibitors-title {
+        font-size: 26px;
+        line-height: 1;
+        padding-top: 10px;
+    }
 
+    .about-exhibitors-sub::before,
+    .about-exhibitors-sub::after {
+        margin: 11px 30px;
+    }
+
+    .about-exhibitors-contents {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+    .about-exhibitors-companys1 {
+        text-align: center;
+    }
 
 }
 
@@ -940,6 +1014,13 @@
         margin-top: -26px;
         background-image: url(../img/Group186.svg);
         height: 416.93px;
+    }
+
+    .about-exhibitors-bg {
+        background-image: url(../img/Group193.svg);
+        height: 329.97px;
+        margin-top: 0px;
+        margin-right: 0px;
     }
 }
 
