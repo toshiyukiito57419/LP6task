@@ -595,9 +595,211 @@
     line-height: 40px;
 }
 
-.about-exhibitors-companys1 {
+.about-exhibitors-companys {
     margin-right: auto;
     text-align: left;
+}
+
+.about-exhibitors-remarks {
+    max-width: 990px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: right;
+    padding-top: 22px;
+}
+
+/* タイムスケジュール */
+.time-schedule-bg {
+    background-image: url(../img/background_4.png);
+    background-position: center;
+    background-size: cover;
+    height: 1520px;
+    margin-top: 205px;
+}
+
+.time-schedule-section {
+    max-width: 980px;
+    padding-top: 95px;
+}
+
+.time-schedule-title {
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    color: #00A8F0;
+}
+
+.time-schedule-sub {
+    padding: 12px 0px;
+    color: #FFFFFF;
+
+}
+
+.time-schedule-sub::before,
+.time-schedule-sub::after {
+    margin: 12px 24px;
+    background-color: #FFFFFF;
+}
+
+.time-schedule-contents-box {
+    padding: 0px 10px;
+    padding-top: 33px;
+}
+
+.time-schedule-contents {
+    justify-content: space-between;
+    display: flex;
+    text-align: left;
+    padding-top: 12px;
+    padding-bottom: 13px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.time-schedule-inset-box {
+    width: 88px;
+    height: 28px;
+    left: -5px;
+    margin-top: 7px;
+    background-color: #FFFFFF;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0, 90% 50%, 100% 100%, 0 100%);
+}
+
+.time-schedule-gest-box {
+    position: relative;
+    width: 33.33%;
+    max-width: 300px;
+    height: 254px;
+    border-radius: 5px;
+    background: #F1FBFF99;
+}
+
+.time-schedule-start {
+    text-align: center;
+    margin-right: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.08em;
+    text-align: center;
+}
+
+.web {
+    display: block;
+}
+
+.person-img {
+    display: flex;
+    padding-top: 16px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.person-icon {
+    width: 130px;
+    height: 134.04px;
+}
+
+.time-schedule-gest-title {
+    display: flex;
+    justify-content: flex-start; /* 水平方向に左揃え */
+    align-items: center; /* 垂直方向に中央揃え */
+    height: 77px;
+    padding: 11px 15px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.08em;
+    text-align: left; /* テキストを左揃え */
+}
+
+.person-three-img {
+    display: flex;
+    padding-top: 40px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.person-three-icon {
+    max-width: 300px;
+    padding-right: 6px;
+    width: 100%;
+    height: 112.04px;
+}
+
+.mc {
+    height: 192px;
+}
+
+.person-two-img {
+    display: flex;
+    padding-top: 38px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.person-two-icon {
+    max-width: 247.16px;
+    width: 100%;
+    height: 134px;
+}
+
+.person-seisei-img {
+    display: flex;
+    padding-top: 28px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.person-seisei-icon {
+    max-width: 247.16px;
+    width: 100%;
+    height: 124px;
+    margin-left: 5px;
+}
+
+.person-second-area {
+    margin: 0px 10px
+}
+
+.read-more {
+    display: none;
+    margin: 0 auto;
+    margin-top: 13px;
+    width: 115px;
+    height: 26px;
+    border: 1px solid #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.read-more-button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.read-more-contents {
+    display: block;
 }
 
 
@@ -644,6 +846,11 @@
     .contents-area {
         margin: 0 auto;
         margin-bottom: 26px;
+    }    
+
+    .time-schedule-gest-title br {
+        text-align: left;
+        display: none; /* <br> タグを非表示にする */
     }
 
 }
@@ -821,7 +1028,7 @@
         width: 100%;
     }
 
-
+    /* イベント内容 */
     .contents-section {
         padding: 30px 22px 0px 18px;
     }
@@ -900,6 +1107,7 @@
         padding: 14px 3px;
     }
 
+    /* pickup */
     .pickup-bg {
         background: linear-gradient(to right, 
         #FDD35C 0px, #FDD35C 10px, 
@@ -973,7 +1181,7 @@
         justify-content: center;
     }
 
-
+    /* 出店企業一覧 */
     .about-exhibitors-section {
         padding-top: 30px;
     }
@@ -998,8 +1206,151 @@
         line-height: 24px;
     }
 
-    .about-exhibitors-companys1 {
+    .about-exhibitors-companys {
         text-align: center;
+    }
+
+    .about-exhibitors-remarks {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+    /* タイムスケジュール */
+    .time-schedule-bg {
+        background-image: url(../img/AdobeStock_302690198_sp2.png);
+        background-position: center;
+        background-size: cover;
+        height: auto;
+        margin-top: 349px;
+    }
+
+    .time-schedule-title {
+        font-size: 26px;
+        line-height: 26px;
+    }
+
+    .time-schedule-sub {
+        padding: 5px 0px;
+        color: #FFFFFF;
+    
+    }
+    
+    .time-schedule-sub::before,
+    .time-schedule-sub::after {
+        margin: 12px 16px;
+        width: 20px;
+    }
+    
+    .time-schedule-section {
+        padding-top: 40px;
+    }
+
+    .time-schedule-contents-box {
+        padding: 0px 10px;
+        padding-top: 12px;
+    }
+
+    .time-schedule-contents {
+        display: block;
+    }
+
+    .person-second-area {
+        margin: 0px;
+    }
+
+    .time-schedule-gest-box {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: flex-start;
+        max-width: 650px;
+        width: 100%;
+        height: 103px;
+        margin: 10px 0px;
+    }
+
+    .web {
+        display: flex;
+    }
+
+    .time-schedule-contents {
+        display: block;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .time-schedule-gest-title {
+        display: flex;
+        text-align: left;
+        align-items: center;
+        flex-direction: row;
+        height: 0px;
+        padding: 0px;
+        padding-left: 10px;
+        padding-top: 64px;
+        font-size: 16px;
+        line-height: 17.6px;
+        letter-spacing: 0.08em;
+    }
+
+    .person-img {
+        padding-top: 8px;
+    }
+
+    .person-icon {
+        width: 87.11px;
+        height: 89px;
+        margin: 0px 10px;
+    }
+
+    .person-seisei-img {
+        padding-top: 15px;
+    }
+    
+    .person-seisei-icon {
+        width: 161px;
+        height: 82px;
+        margin: 0px 7px;
+    }
+
+    .person-three-img {
+        padding-top: 17px;
+    }
+    
+    .person-three-icon {
+        height: 75px;
+        width: 195.09px;
+    }
+
+    .person-two-img {
+        margin: 0 auto;
+        padding-top: 6px;
+    }
+    
+    .person-two-icon {
+        width: 100%;
+        height: 89.52px;
+    }
+
+    .read-more {
+        display: block;
+    }
+
+    .read-more-contents {
+        display: none;
+        transition: max-height 0.5s ease, opacity 0.5s ease;
+    }
+
+    .read-more-contents.active {
+        display: block;
+        opacity: 1;
+    }
+
+    .linear-gradient {
+        mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 0) 100%);
+        -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 0) 100%);
     }
 
 }
