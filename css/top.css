@@ -146,6 +146,7 @@
     justify-content: center;
     font-size: 18px;
     line-height: 18px;
+    color: #444545;
 }
 
 .sub-title::before,
@@ -593,6 +594,7 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 40px;
+    color: #444545;
 }
 
 .about-exhibitors-companys {
@@ -608,6 +610,7 @@
     line-height: 36px;
     text-align: right;
     padding-top: 22px;
+    color: #444545;
 }
 
 /* タイムスケジュール */
@@ -648,8 +651,9 @@
 }
 
 .time-schedule-contents-box {
-    padding: 0px 10px;
+    /* padding: 0px 10px; */
     padding-top: 33px;
+    color: #444545;
 }
 
 .time-schedule-contents {
@@ -679,6 +683,7 @@
     max-width: 300px;
     height: 254px;
     border-radius: 5px;
+    margin: 0px 10px;
     background: #F1FBFF99;
 }
 
@@ -769,10 +774,6 @@
     width: 100%;
     height: 124px;
     margin-left: 5px;
-}
-
-.person-second-area {
-    margin: 0px 10px
 }
 
 .read-more {
@@ -1190,11 +1191,18 @@
         font-size: 26px;
         line-height: 1;
         padding-top: 10px;
+        padding-left: 0px;
+    }
+
+    .about-exhibitors-sub {
+        padding: 6px 0px;
+        margin-left: 5px;
     }
 
     .about-exhibitors-sub::before,
     .about-exhibitors-sub::after {
-        margin: 11px 30px;
+        margin: 11px 8px;
+        width: 20px;
     }
 
     .about-exhibitors-contents {
@@ -1203,7 +1211,7 @@
         padding: 10px;
         font-size: 16px;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 35px;
     }
 
     .about-exhibitors-companys {
@@ -1223,7 +1231,7 @@
         background-position: center;
         background-size: cover;
         height: auto;
-        margin-top: 349px;
+        margin-top: 497px;
     }
 
     .time-schedule-title {
@@ -1244,11 +1252,11 @@
     }
     
     .time-schedule-section {
+        padding: 0px 20px;
         padding-top: 40px;
     }
 
     .time-schedule-contents-box {
-        padding: 0px 10px;
         padding-top: 12px;
     }
 
@@ -1256,19 +1264,24 @@
         display: block;
     }
 
-    .person-second-area {
-        margin: 0px;
+    .time-schedule-inset-box {
+        width: 83px;
+        left: -6px;
     }
 
+
     .time-schedule-gest-box {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        align-items: flex-start;
         max-width: 650px;
         width: 100%;
         height: 103px;
         margin: 10px 0px;
+    }
+
+    .time-schedule-gest {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: flex-start;
     }
 
     .web {
