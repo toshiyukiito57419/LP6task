@@ -146,6 +146,7 @@
     justify-content: center;
     font-size: 18px;
     line-height: 18px;
+    color: #444545;
 }
 
 .sub-title::before,
@@ -593,6 +594,7 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 40px;
+    color: #444545;
 }
 
 .about-exhibitors-companys {
@@ -608,6 +610,7 @@
     line-height: 36px;
     text-align: right;
     padding-top: 22px;
+    color: #444545;
 }
 
 /* タイムスケジュール */
@@ -621,7 +624,7 @@
 
 .time-schedule-section {
     max-width: 980px;
-    padding-top: 95px;
+    padding-top: 90px;
 }
 
 .time-schedule-title {
@@ -648,8 +651,8 @@
 }
 
 .time-schedule-contents-box {
-    padding: 0px 10px;
     padding-top: 33px;
+    color: #444545;
 }
 
 .time-schedule-contents {
@@ -679,6 +682,7 @@
     max-width: 300px;
     height: 254px;
     border-radius: 5px;
+    margin: 0px 10px;
     background: #F1FBFF99;
 }
 
@@ -771,10 +775,6 @@
     margin-left: 5px;
 }
 
-.person-second-area {
-    margin: 0px 10px
-}
-
 .read-more {
     display: none;
     margin: 0 auto;
@@ -802,6 +802,177 @@
     display: block;
 }
 
+.faq {
+    padding-top: 97px;
+    padding-bottom: 40px;
+}
+
+.faq-title {
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    color: #FDD35C;
+}
+
+.faq-sub {
+    margin: 0 auto;
+    padding: 15px 0px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    color: #444545;
+}
+
+.faq-sub::before,
+.faq-sub::after {
+    margin: 12px 24px;
+}
+
+.faq-contents{
+    padding-top: 45px;
+    padding-left: 90px;
+}
+
+.faq-area {
+    padding-bottom: 28px;
+}
+
+.faq-detail {
+    align-items: center;
+    display: flex;
+    padding: 8px 10px;
+}
+
+.faq-circle-question {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 33px;
+    height: 33px;
+    background-color: #00A8F0;
+    color: #FFFFFF;
+    border-radius: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    margin-right: 10px;
+}
+
+.faq-circle-answer {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 33px;
+    height: 33px;
+    background-color: #FDD35C;
+    color: #FFFFFF;
+    border-radius: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    margin-right: 10px;
+}
+
+.faq-text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    width: calc(100% - 30px)
+}
+
+.questionnaire {
+    text-decoration: none;
+}
+
+.footer {
+    background: #333333;
+    height: auto;
+    padding-bottom: 90px;
+}
+
+.footer-contens {
+    margin: 0 auto;
+    max-width: 1212px;
+    padding: 0px 20px;
+    padding-top: 60px;
+}
+
+.footer-boarder {
+    display: flex;
+    margin: 0 auto;
+    width: 301px;
+    height: 50px;
+    border-radius: 999px;
+    border: 1.63px solid #FFFFFF;
+}
+
+.hope-text {
+    margin: 0 auto;
+    display: flex;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 31.86px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.footer-bar {
+    max-width: 1197px;
+    width: 100%;
+    height: 0px;
+    margin-top: 45px;
+    border: 1px solid #FFFFFF99
+}
+
+.footer-detail {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 17px 0px;
+}
+
+.footer-text {
+    font-family: 'Noto Sans JP';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-left: 9px;
+    margin-right: 12px;
+    color: #FFFFFF;
+}
+
+.footer-img {
+    margin-right: 33px;
+}
+
+.fixed-vertical-button {
+    display: flex;
+    position: fixed;   /* 画面に固定 */
+    width: 65px;      /* 幅 */
+    height: 303px;      /* 高さ */
+    right: 0;         
+    top: 50%;         /* 中央揃えのため */
+    transform: translateY(-50%);
+    border-radius: 10px;
+    border: 2px solid #FFFFFF;
+    background: #06C755;
+    flex-direction: column;
+}
 
 @media (min-width: 1490px) {
     .freelance-summit-bg {
@@ -855,7 +1026,7 @@
 
 }
 
-@media (max-width: 630px) {
+@media (max-width: 660px) {
     .pc {
         display: none;
     }
@@ -1190,11 +1361,18 @@
         font-size: 26px;
         line-height: 1;
         padding-top: 10px;
+        padding-left: 0px;
+    }
+
+    .about-exhibitors-sub {
+        padding: 6px 0px;
+        margin-left: 5px;
     }
 
     .about-exhibitors-sub::before,
     .about-exhibitors-sub::after {
-        margin: 11px 30px;
+        margin: 11px 8px;
+        width: 20px;
     }
 
     .about-exhibitors-contents {
@@ -1203,7 +1381,7 @@
         padding: 10px;
         font-size: 16px;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 35px;
     }
 
     .about-exhibitors-companys {
@@ -1223,7 +1401,8 @@
         background-position: center;
         background-size: cover;
         height: auto;
-        margin-top: 349px;
+        margin-top: 497px;
+        padding-bottom: 54px;
     }
 
     .time-schedule-title {
@@ -1234,7 +1413,6 @@
     .time-schedule-sub {
         padding: 5px 0px;
         color: #FFFFFF;
-    
     }
     
     .time-schedule-sub::before,
@@ -1244,11 +1422,11 @@
     }
     
     .time-schedule-section {
+        padding: 0px 20px;
         padding-top: 40px;
     }
 
     .time-schedule-contents-box {
-        padding: 0px 10px;
         padding-top: 12px;
     }
 
@@ -1256,19 +1434,24 @@
         display: block;
     }
 
-    .person-second-area {
-        margin: 0px;
+    .time-schedule-inset-box {
+        width: 83px;
+        left: -6px;
     }
 
+
     .time-schedule-gest-box {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        align-items: flex-start;
         max-width: 650px;
         width: 100%;
         height: 103px;
         margin: 10px 0px;
+    }
+
+    .time-schedule-gest {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: flex-start;
     }
 
     .web {
@@ -1353,6 +1536,128 @@
         -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 0) 100%);
     }
 
+    .faq {
+        padding-top: 27px;
+    }
+
+    .faq-title {
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 26px;
+    }
+
+    .faq-sub {
+        padding: 5px 0px;
+    }
+    
+    .faq-sub::before,
+    .faq-sub::after {
+        margin: 12px 16px;
+        width: 20px;
+    }
+
+    .faq-area {
+        padding-bottom: 12px;
+    }
+
+    .faq-contents {
+        padding-top: 5px;
+        padding-left: 21px;
+    }
+
+    .faq-circle-question {
+        width: 26.16px;
+        height: 26.16px;
+        font-size: 14.27px;
+        line-height: 21.4px;
+    }
+    
+    .faq-circle-answer {
+        width: 26.16px;
+        height: 26.16px;
+        font-size: 14.27px;
+        line-height: 21.4px;
+    }
+
+    .faq-text{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+
+    .footer-contens {
+        padding-top: 21px;
+    }
+    
+    .footer-boarder {
+        width: 250px;
+        height: 40px;
+        border: 1px solid #FFFFFF;
+    }
+    
+    .hope-text {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 23.17px;
+    }
+    
+    .footer-bar {
+        margin: 0 auto;
+        width: 296.5px;
+        margin-top: 20px;
+        border: 1px solid #FFFFFF99
+    }
+    
+    .footer-detail {
+        padding: 12px 0px;
+    }
+    
+    .footer-text {
+        font-size: 9.12px;
+        line-height: 13.02px;
+        margin-top: 9px;
+        margin-left: 1px;
+        margin-right: 6px;
+    }
+    
+    .footer-img {
+        margin-right: 11px;
+    }
+
+    .fixed-button {
+        display: flex;
+        position: fixed;   /* 画面に固定 */
+        width: 343px;      /* 幅 */
+        height: 49px;      /* 高さ */
+        bottom: 0;         /* 画面の下部に固定 */
+        left: 50%;         /* 中央揃えのため */
+        transform: translateX(-50%);  /* 中央に位置させる */
+        border-radius: 999px;
+        border: 2px solid #FFFFFF;
+        background: #06C755;
+        margin: 20px 0px;
+    }
+
+    .fixed-text {
+        display: flex;
+        font-family: 'Noto Sans JP';
+        font-size: 19.6px;
+        font-weight: 700;
+        line-height: 28.38px;
+        text-align: left;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        color: #FFFFFF;
+    }
+
+    .fixed-line-icon {
+        height: 46.55px;
+        width: 46.55px;
+        margin-left: -50px;
+        margin-right: 10px;
+    }
 }
 
 @media (max-width: 390px) {
