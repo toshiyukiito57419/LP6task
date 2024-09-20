@@ -968,7 +968,7 @@
     right: 0;         
     top: 50%;         /* 中央揃えのため */
     transform: translateY(-50%);
-    border-radius: 10px;
+    border-radius: 10px 0px 0px 10px;
     border: 2px solid #FFFFFF;
     background: #06C755;
     flex-direction: column;
@@ -1132,6 +1132,7 @@
 
     .event-boarder {
         margin: 5px 0px;
+        border: 1px dotted #C4C4C4;
     }
 
     .event-summary-detail-info{
@@ -1353,6 +1354,13 @@
     }
 
     /* 出店企業一覧 */
+    .about-exhibitors-bg {
+        background-image: url(../img/Group193.svg);
+        height: 329.97px;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+
     .about-exhibitors-section {
         padding-top: 30px;
     }
@@ -1672,12 +1680,12 @@
         height: 416.93px;
     }
 
-    .about-exhibitors-bg {
+    /* .about-exhibitors-bg {
         background-image: url(../img/Group193.svg);
         height: 329.97px;
         margin-top: 0px;
         margin-right: 0px;
-    }
+    } */
 }
 
 @media (max-width: 375px) {
