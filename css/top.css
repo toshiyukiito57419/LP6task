@@ -257,7 +257,7 @@
     width: 100%;
     height: 0px;
     margin: 34px -16px;;
-    border: 1px dashed #C4C4C4;
+    border: 1px dotted #C4C4C4;
 }
 
 .hole {
@@ -1132,7 +1132,6 @@
 
     .event-boarder {
         margin: 5px 0px;
-        border: 1px dotted #C4C4C4;
     }
 
     .event-summary-detail-info{
